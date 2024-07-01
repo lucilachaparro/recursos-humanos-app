@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<ListadoEmpleados/>}/>
         <Route exact path='/agregar' element={<AgregarEmpleado/>}/>
+        <Route exact path='/editar/:id' element={<EditarEmpleados/>}/>
       </Routes>
     </BrowserRouter>
     </div>

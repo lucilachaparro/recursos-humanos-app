@@ -48,7 +48,6 @@ export default function AgregarEmpleado() {
         <button type='submit' className="btn btn-warning btn-sm me-3">Agregar</button>
         <a href='/' className='btn btn-danger btn-sm'>Regresar</a>
       </div>
-      <button type="submit" className="btn btn-primary">Agregar</button>
       </form>
     </div>
   )
